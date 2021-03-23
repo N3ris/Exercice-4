@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/N3ris/Exercice-4/static/css/main.46f78a3d.chunk.css",
+    "main.js": "/N3ris/Exercice-4/static/js/main.3dd8806f.chunk.js",
+    "main.js.map": "/N3ris/Exercice-4/static/js/main.3dd8806f.chunk.js.map",
+    "runtime-main.js": "/N3ris/Exercice-4/static/js/runtime-main.455fcbeb.js",
+    "runtime-main.js.map": "/N3ris/Exercice-4/static/js/runtime-main.455fcbeb.js.map",
+    "static/css/2.b39b49d3.chunk.css": "/N3ris/Exercice-4/static/css/2.b39b49d3.chunk.css",
+    "static/js/2.7ed96384.chunk.js": "/N3ris/Exercice-4/static/js/2.7ed96384.chunk.js",
+    "static/js/2.7ed96384.chunk.js.map": "/N3ris/Exercice-4/static/js/2.7ed96384.chunk.js.map",
+    "index.html": "/N3ris/Exercice-4/index.html",
+    "static/css/2.b39b49d3.chunk.css.map": "/N3ris/Exercice-4/static/css/2.b39b49d3.chunk.css.map",
+    "static/css/main.46f78a3d.chunk.css.map": "/N3ris/Exercice-4/static/css/main.46f78a3d.chunk.css.map",
+    "static/js/2.7ed96384.chunk.js.LICENSE.txt": "/N3ris/Exercice-4/static/js/2.7ed96384.chunk.js.LICENSE.txt",
+    "static/media/couverture.2dc9ece9.webp": "/N3ris/Exercice-4/static/media/couverture.2dc9ece9.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.455fcbeb.js",
+    "static/css/2.b39b49d3.chunk.css",
+    "static/js/2.7ed96384.chunk.js",
+    "static/css/main.46f78a3d.chunk.css",
+    "static/js/main.3dd8806f.chunk.js"
+  ]
+}
