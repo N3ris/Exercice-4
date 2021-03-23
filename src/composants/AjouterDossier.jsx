@@ -1,3 +1,4 @@
+import './AjouterDossier.scss';
 import Button from '@material-ui/core/Button';
 import TextField from '@material-ui/core/TextField';
 import Dialog from '@material-ui/core/Dialog';
@@ -5,7 +6,7 @@ import DialogActions from '@material-ui/core/DialogActions';
 import DialogContent from '@material-ui/core/DialogContent';
 import DialogTitle from '@material-ui/core/DialogTitle';
 import { useState } from 'react';
-import { TwitterPicker } from 'react-color';
+import { TwitterPicker  } from 'react-color';
 
 export default function AjouterDossier({ouvert, setOuvert, gererAjout}) {
   const [nom, setNom] = useState('');
@@ -32,6 +33,7 @@ export default function AjouterDossier({ouvert, setOuvert, gererAjout}) {
             fullWidth
             onChange={(e) => setNom(e.target.value)}
             defaultValue={nom}
+            margin="normal"
           />
           <TextField
             margin="dense"
@@ -41,19 +43,24 @@ export default function AjouterDossier({ouvert, setOuvert, gererAjout}) {
             fullWidth
             onChange={(e) => setCouverture(e.target.value)}
             defaultValue={couverture}
+            margin="normal"
           />
           <TwitterPicker 
             width="100%" 
             triangle="hide" 
             onChangeComplete={(couleur, e) => setCouleur(couleur.hex)}
+            colors={['#D0021B', '#F5A623', '#F8E71C', '#8B572A', '#7ED321', '#417505']}
             color={couleur}
+
+            
+
           />
         </DialogContent>
-        <DialogActions>
-          <Button onClick={()=>{setOuvert(false); viderChamps()}} color="primary">
+        <DialogActions     margin="normal" >
+          <Button onClick={()=>{setOuvert(false); viderChamps()}} color="primary" id='Annuler'>
             Annuler
           </Button>
-          <Button onClick={() => {nom !== '' && gererAjout(nom, couverture, couleur); viderChamps(); }} color="primary">
+          <Button onClick={() => {nom !== '' && gererAjout(nom, couverture, couleur); viderChamps(); }} color="primary" id='Ajouter'>
             Ajouter
           </Button>
         </DialogActions>
